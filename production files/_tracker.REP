@@ -2,80 +2,6 @@
 FileName = _tracker.GBR
 AutoAperture = True
 *************************************************************
-Generating : Mid-Layer 2
-      File : _tracker.G2
-
-    Adding Layer      : Mid-Layer 2
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-    D12
-    D15
-    D19
-    D128
-    D139
-    D142
-    D143
-    D144
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : _tracker.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-    D12
-    D13
-    D15
-    D19
-    D43
-    D55
-    D119
-    D122
-    D123
-    D128
-    D138
-    D139
-    D140
-    D141
-    D142
-    D143
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : _tracker.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-*************************************************************
-
-*************************************************************
 Generating : Mid-Layer 1
       File : _tracker.G1
 
@@ -92,33 +18,6 @@ Used DCodes :
     D141
     D142
     D143
-*************************************************************
-
-*************************************************************
-Generating : Drill Drawing
-      File : _tracker.GD1
-
-    Adding Drill Pair : Top Layer-Bottom Layer
-
-    Adding Layer      : Drill Drawing
-
-
-Used DCodes :
-    D155
-    D156
-*************************************************************
-
-*************************************************************
-Generating : Drill Guide
-      File : _tracker.GG1
-
-    Adding Drill Pair : Top Layer-Bottom Layer
-
-    Adding Layer      : Drill Guide
-
-
-Used DCodes :
-    D155
 *************************************************************
 
 *************************************************************
@@ -208,93 +107,10 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Via Capping
-      File : _tracker.GM16
-
-    Adding Layer      : Top Via Capping
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Board Outline
-      File : _tracker.GM1
-
-    Adding Layer      : Board Outline
-
-
-Used DCodes :
-    D21
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : _tracker.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D17
-    D19
-    D20
-    D22
-    D146
-    D147
-    D148
-    D149
-    D150
-    D151
-    D152
-    D153
-    D154
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : _tracker.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D43
-    D55
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : _tracker.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D88
-    D117
-    D118
-    D119
-    D120
-    D121
-    D122
-    D123
-    D145
-*************************************************************
-
-*************************************************************
-Generating : Top Solder
+Generating : Top Solder Mask
       File : _tracker.GTS
 
-    Adding Layer      : Top Solder
+    Adding Layer      : Top Solder Mask
 
     Adding Layer      : Top Layer
 
@@ -358,6 +174,35 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
+Generating : Bottom Layer
+      File : _tracker.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D15
+    D19
+    D43
+    D55
+    D119
+    D122
+    D123
+    D127
+    D138
+    D139
+    D140
+    D141
+    D142
+    D143
+*************************************************************
+
+*************************************************************
 Generating : Top Paste
       File : _tracker.GTP
 
@@ -416,5 +261,160 @@ Used DCodes :
     D68
     D69
     D70
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder Mask
+      File : _tracker.GBS
+
+    Adding Layer      : Bottom Solder Mask
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D88
+    D117
+    D118
+    D119
+    D120
+    D121
+    D122
+    D123
+    D145
+*************************************************************
+
+*************************************************************
+Generating : Board Outline
+      File : _tracker.GM1
+
+    Adding Layer      : Board Outline
+
+
+Used DCodes :
+    D21
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : _tracker.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D43
+    D55
+*************************************************************
+
+*************************************************************
+Generating : Top Via Capping
+      File : _tracker.GM16
+
+    Adding Layer      : Top Via Capping
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : _tracker.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : _tracker.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D17
+    D19
+    D20
+    D22
+    D146
+    D147
+    D148
+    D149
+    D150
+    D151
+    D152
+    D153
+    D154
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : _tracker.GD1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D155
+    D156
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : _tracker.GG1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D155
+*************************************************************
+
+*************************************************************
+Generating : Mid-Layer 2
+      File : _tracker.G2
+
+    Adding Layer      : Mid-Layer 2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+    D15
+    D19
+    D127
+    D139
+    D142
+    D143
+    D144
 *************************************************************
 

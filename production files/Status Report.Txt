@@ -1,0 +1,10 @@
+Output: _tracker_pick_and_place
+Type  : Pick Place
+From  : PCB Document [_tracker.PcbDoc]
+   Generated File[_tracker_pick_and_place.csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 15:05:42 On 18.06.2020
